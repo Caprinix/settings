@@ -1,3 +1,37 @@
 {
-  "base": []
+  "base": [
+    "pkief.material-icon-theme",
+    "pkief.material-product-icons",
+    "mkhl.direnv",
+    "alefragnani.project-manager",
+    "alefragnani.bookmarks",
+    "alefragnani.numbered-bookmarks",
+    "gruntfuggly.todo-tree",
+    "betterthantomorrow.calva",
+    "betterthantomorrow.joyride",
+    "cubicle6.scriptbox"
+  ],
+  "nix": [
+    "jnoortheen.nix-ide"
+  ],
+  "git": [
+    "eamodio.gitlens",
+    "mhutchie.git-graph"
+  ],
+  "github": [
+    "github.vscode-pull-request-github",
+    "github.vscode-github-actions",
+    "github.remotehub",
+    "ms-vscode.vscode-github-issue-notebooks"
+  ],
+  "remote": [
+    "ms-vscode-remote.remote-ssh",
+    "ms-vscode-remote.remote-ssh-edit",
+    "ms-vscode.remote-explorer",
+    "ms-vscode.remote-server",
+    "ms-vscode.remote-repositories",
+    "ms-vscode-remote.remote-containers",
+    "kelvin.vscode-sshfs",
+    "yy0931.save-as-root"
+  ]
 }
