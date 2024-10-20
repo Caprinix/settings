@@ -35,6 +35,7 @@ in
     getMixinExtensions
     getMixinSettings
     getCombinedMixinExtensions
+    mergeSettings
     getCombinedMixinSettings
     extensionStringToPackage
     ;
