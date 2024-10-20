@@ -20,11 +20,8 @@ let
     if lib.attrsets.hasAttr "settings" mixin then mixin.settings else { };
   getCombinedMixinExtensions =
     mixins: lib.lists.unique (lib.lists.flatten (map getMixinExtensions mixins));
-  getCombinedMixinSettings =
-    mixins:
-    lib.attrsets.foldAttrs (mixin: acc: lib.attrsets.recursiveUpdate acc mixin) { } (
-      map getMixinSettings mixins
-    );
+  mergeSettings = lib.snowfall.attrs.merge-deep;
+  getCombinedMixinSettings = mixins: mergeSettings (map getMixinSettings mixins);
   extensionStringToPackage =
     pkgs: string:
     let
