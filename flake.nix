@@ -18,7 +18,7 @@
       snowfall = rec {
         namespace = "caprinix";
 
-        meta = {    
+        meta = {
           name = namespace;
           title = namespace;
         };
