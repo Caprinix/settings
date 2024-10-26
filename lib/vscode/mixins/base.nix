@@ -3,6 +3,9 @@
     "editor.formatOnSave" = true;
     "files.autoSave" = "afterDelay";
     "files.autoSaveDelay" = 1000;
+    "workbench.iconTheme" = "material-icon-theme";
+    "workbench.productIconTheme" = "material-product-icons";
+    "window.zoomLevel" = -1;
   };
   extensions = [
     "pkief.material-icon-theme"
