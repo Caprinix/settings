@@ -6,6 +6,8 @@
     "workbench.iconTheme" = "material-icon-theme";
     "workbench.productIconTheme" = "material-product-icons";
     "window.zoomLevel" = -1;
+    "direnv.watchForChanges" = false;
+    "direnv.restart.automatic" = false;
   };
   extensions = [
     "pkief.material-icon-theme"
